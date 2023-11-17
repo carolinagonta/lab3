@@ -27,12 +27,7 @@ public class Masina extends Autocar{
     public void setTipTransmisie(String tipTransmisie) {
         this.tipTransmisie = tipTransmisie;
     }
-//    public void stareAutovehicul(){
-//        System.out.println("Masina este pornita");
-//    }
-//    public void stareCombustibil(){
-//        System.out.println("Masina are suficent combustibil!");
-//    }
+
     @Override
     public void alimenteazaAutovehiculul(){
         System.out.println("Masina nu trebuie sa fie alimentata!");
